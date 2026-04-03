@@ -52,7 +52,7 @@ movingBtn.addEventListener('click', () => {
     clickCount++;
     clickCountEl.textContent = clickCount;
     
-    if (clickCount >= 5) {
+    if (clickCount >= 19) {
         gameScreen.classList.remove('active');
         birthdayScreen.classList.add('active');
     }
